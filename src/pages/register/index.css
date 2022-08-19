@@ -1,0 +1,20 @@
+.register{
+  width: 40%;
+  /* background:hwb(230 96% 1%); */
+  /* display: flex;   */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+  /* background: linear-gradient(145deg, #e2e8ec, #ffffff); */
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  border-radius: 10px;
+  padding: 50px;
+  padding-bottom: 20px;
+  margin: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .register{
+    width: 70%;
+  }
+}
